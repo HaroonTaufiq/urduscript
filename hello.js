@@ -28,7 +28,7 @@ har sabNaam k naam per{
 	likho(naam)
 }
 */
-likho(salaam("asad"))
+likho(salaam("Haroon"))
 hello()
 
 kaam salaam(naam){
