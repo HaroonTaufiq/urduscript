@@ -139,6 +139,87 @@ rakho quotient = num1 / num2
 
 // output to screen
 likho("The quotient is " + quotient)
+`,
+// factorial
+"Factorial": `// Recursive function to calculate factorial
+kaam factorial(n) {
+  agar (n === 0) {
+    bhejo 1
+  } warna {
+    bhejo n * factorial(n - 1)
+  }
+}
+
+likho(factorial(5)) // Output: 120
+`,
+// map
+"Map": `// Declare an array
+rakho numbers = [10, 20, 30, 40, 50]
+
+// map() method
+rakho doubledNumbers = numbers.map(function(num) {
+  bhejo num * 2
+})
+likho(doubledNumbers) // Output: [20, 40, 60, 80, 100]
+`,
+
+// filter
+"Filter": `// Declare an array
+rakho numbers = [10, 20, 30, 40, 50]
+
+// filter() method
+rakho evenNumbers = numbers.filter(function(num) {
+  bhejo num % 2 === 0
+})
+likho(evenNumbers) // Output: [10, 20, 30, 40, 50]
+`,
+
+// reduce
+"Reduce": `// Declare an array
+rakho numbers = [10, 20, 30, 40, 50]
+
+// reduce() method
+rakho sum = numbers.reduce(function(acc, num) {
+  bhejo acc + num
+}, 0)
+likho(sum) // Output: 150
+`,
+// switch-case
+"SwitchCase": `// Switch-case statement
+kaam chooseDay(dayNumber) {
+  rakho dayName
+
+  switch (dayNumber) {
+    case 1:
+      dayName = "Pir"
+      bhejo dayName
+    case 2:
+      dayName = "Mangal"
+      bhejo dayName
+    case 3:
+      dayName = "Budh"
+      bhejo dayName
+    case 4:
+      dayName = "Jumerat"
+      bhejo dayName
+    case 5:
+      dayName = "Jummah"
+      bhejo dayName
+    case 6:
+      dayName = "Hafta"
+      bhejo dayName
+    case 7:
+      dayName = "Itwaar"
+      bhejo dayName
+    khaali:
+      dayName = "Ghalat din number"
+      bhejo dayName
+  }
+}
+
+// Example usage
+rakho dinNumber = 5
+likho("Aaj ka din hai: " + chooseDay(dinNumber))
 `
 
 }
