@@ -11,8 +11,7 @@
     "windows": "copy src\\keywords.js docs\\editor\\scripts\\urdujs\\keywords.js.txt && nws -d docs/editor",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Asad Memon",
-  "license": "ISC",
+  "author": "Haroon Taufiq",
   "dependencies": {
     "@sweet-js/core": "^3.0.13",
     "nws": "^1.1.1",
