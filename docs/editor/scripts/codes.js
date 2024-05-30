@@ -93,6 +93,52 @@ kaam fibonacci(num) {
 }
 
 likho(fibonacci(5))
+`,
+// addition
+"Addition": `// declare variables
+rakho num1 = 5
+rakho num2 = 10
+
+// addition
+rakho sum = num1 + num2
+
+// output to screen
+likho("The sum is " + sum)
+`,
+// subtraction
+"Subtraction": `// declare variables
+rakho num1 = 10
+rakho num2 = 5
+
+// subtraction
+rakho difference = num1 - num2
+
+// output to screen
+likho("The difference is " + difference)
+`,
+
+// multiplication
+"Multiplication": `// declare variables
+rakho num1 = 5
+rakho num2 = 10
+
+// multiplication
+rakho product = num1 * num2
+
+// output to screen
+likho("The product is " + product)
+`,
+
+// division
+"Division": `// declare variables
+rakho num1 = 10
+rakho num2 = 5
+
+// division
+rakho quotient = num1 / num2
+
+// output to screen
+likho("The quotient is " + quotient)
 `
 
 }
